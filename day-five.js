@@ -1,3 +1,10 @@
+/* Implementation: 
+    Replace characters (F/L → 0, B/R → 1)
+    Interpret the result as a binary number
+    Part 1: Find the maximum ID
+    Part 2: Sort IDs and find the missing one
+*/
+
 // import Node.js File System module to read files
 // documentation: https://nodejs.org/api/fs.html
 const fs = require('fs');

@@ -1,3 +1,9 @@
+/* Implementation: 
+    Split input into groups by blank lines
+    Part 1: Use a Set to count unique answers
+    Part 2: Find the intersection of answers across all people
+*/
+
 // import Node.js File System module to read files
 // documentation: https://nodejs.org/api/fs.html
 const fs = require('fs');

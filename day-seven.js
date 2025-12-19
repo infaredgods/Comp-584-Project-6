@@ -1,3 +1,11 @@
+/* Implementation: 
+    Build a directed graph:
+    One map for containment
+    One map for reverse containment
+    Part 1: Use DFS to traverse upward
+    Part 2: Use recursive DFS to count nested bags
+*/
+
 // import Node.js File System module to read files
 // documentation: https://nodejs.org/api/fs.html
 const fs = require('fs');

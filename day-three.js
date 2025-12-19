@@ -1,3 +1,10 @@
+/* Implementation: 
+    Store the map as an array of strings
+    Use (x % width) to wrap horizontally
+    Increment position step-by-step until reaching the bottom
+    Part 2: Repeat for multiple slopes and multiply results
+*/
+
 // import Node.js File System module to read files
 // documentation: https://nodejs.org/api/fs.html
 const fs = require('fs');

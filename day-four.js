@@ -1,3 +1,10 @@
+/* Implementation: 
+    Split passports by blank lines
+    Convert each passport into key-value pairs
+    Part 1: Check presence of required fields
+    Part 2: Validate each field using numeric ranges or regex
+*/
+
 // import Node.js File System module to read files
 // documentation: https://nodejs.org/api/fs.html
 const fs = require('fs');

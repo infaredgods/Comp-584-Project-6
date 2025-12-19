@@ -1,3 +1,9 @@
+/* Implementation: 
+    Each line is parsed into: minimum, maximum, required letter, and password
+    Part 1: Count how many times the letter appears
+    Part 2: Check the two positions using exclusive OR (XOR) logic
+*/
+
 // import Node.js File System module to read files
 // documentation: https://nodejs.org/api/fs.html
 const fs = require('fs');

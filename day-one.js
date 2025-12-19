@@ -1,3 +1,13 @@
+/* Implementation:
+    Read all numbers into an array
+    For Part 1, use two nested loops:
+    Pick one number
+    Compare it with every number after it
+    For Part 2, extend this to three nested loops
+ */
+
+// import Node.js File System module to read files
+// documentation: https://nodejs.org/api/fs.html
 const fs = require('fs');
 const path = require('path');
 
